@@ -1,6 +1,12 @@
+'''
+2020-2 자료구조 과제 3: 정렬 프로그램
+
+1870021 휴먼기계바이오공학부 김수아
+'''
+
 import pandas as pd
 import time
-import sys
+import random
 
 # 선택정렬
 def selection_sort(arr):
@@ -96,53 +102,25 @@ def heap_sort(arr):
     return arr
 
 # 퀵정렬
-class SortableArray:
-    def __init__(self, arr):
-        self.arr = arr
-
-    def partition(self, left_pointer, right_pointer):
-        # 항상 가장 오른쪽에 있는 값을 피벗으로 선택
-        pivot_position = right_pointer
-        pivot = self.arr[pivot_position]
-
-        # 피벗 바로 왼쪽에서 오른쪽 포인터를 시작
-        right_pointer -= 1
-
-        while True:
-            while self.arr[left_pointer] < pivot:
-                left_pointer += 1
-            while self.arr[right_pointer] > pivot:
-                right_pointer -= 1
-
-            if left_pointer >= right_pointer:
-                break
-            else:
-                self.swap(left_pointer, right_pointer)
-
-        # 마지막 단계로 왼쪽 포인터와 피벗을 교환
-        self.swap(left_pointer, pivot_position)
-    
-        # 이어지는 예제에서 나올 quicksort 메서드를 위해 왼쪽 포인터를 반환
-        return left_pointer
-
-    def swap(self, pointer_1, pointer_2):
-        temp_value = self.arr[pointer_1]
-        self.arr[pointer_1] = self.arr[pointer_2]
-        self.arr[pointer_2] = temp_value
-        
-    def quicksort(self, left_index, right_index):
-        # 기저 조건: 하위 배열에 원소가 0개 or 1개일 때
-        if right_index - left_index <= 0:
+def quick_sort(arr):
+    def sort(low, high):
+        if high <= low:
             return
-
-        #배열을 분할하고 피벗의 위치를 가져옴
-        pivot_position = self.partition(left_index, right_index)
-
-        #피벗 왼쪽에 대해 quicksort 메서드를 재귀적으로 호출
-        self.quicksort(left_index, pivot_position - 1)
-
-        #피벗 오른쪽에 대해 quicksort 메서드를 재귀적으로 호출
-        self.quicksort(pivot_position + 1, right_index)
+        mid = partition(low, high)
+        sort(low, mid - 1)
+        sort(mid, high)
+    def partition(low, high):
+        pivot = arr[(low + high) // 2]
+        while low <= high:
+            while arr[low] < pivot:
+                low += 1
+            while arr[high] > pivot:
+                high -= 1
+            if low <= high:
+                arr[low], arr[high] = arr[high], arr[low]
+                low, high = low + 1, high - 1
+        return low
+    return sort(0, len(arr) - 1)
 
 # 합병정렬
 def merge_sort(arr):
@@ -199,16 +177,20 @@ def radix_sort(arr, base=10):
 
 # 메인 함수
 if __name__=="__main__":
-    sys.setrecursionlimit(100000)
     
-    # '음절통계' 텍스트파일을 pandas dataframe으로 읽어옴
-    data = pd.read_csv('일반어휘통계.txt', sep = '\t', encoding = 'cp949')
-    
-    # array: 일반 한글 어휘(약 8만개)를 저장한 배열
+    # array: 20만개 수치데이터를 저장한 배열
     array = []
+    
+    # 20만 개 난수 데이터 생성
+    num = random.randrange(0,250000)
 
-    for i in range(len(data)):
-        array.append(data.iloc[i][2])
+    for i in range(200000):
+        while num in array:
+            num = random.randrange(0,250000)
+        array.append(num)
+    
+    # 정렬된 결과(오름차순)
+    array = sorted(array)
     
     # 선택정렬 수행 시간 출력
     start = time.time()  # 시작 시간 저장
@@ -237,8 +219,7 @@ if __name__=="__main__":
     
     # 퀵정렬 수행 시간 출력
     start = time.time()
-    quick_sort = SortableArray(array)
-    quick_sort.quicksort(0, len(array)-1)
+    quick_sort(array)
     print("(6) 퀵정렬:", time.time() - start) 
     
     # 합병 정렬 수행 시간 출력
