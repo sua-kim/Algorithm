@@ -2,6 +2,8 @@
 ![language badge](https://img.shields.io/badge/language-C%2B%2B-green)
 # Algorithm
 
+알고리즘 소스코드를 기록하는 레포지토리💻
+
 - [C-study](https://github.com/sua-kim/Algorithm/tree/main/C-study)
 : [C언어 강의](https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%AC%B8%EB%B2%95#)를 들으며 실습한 코드를 업로드한 공간입니다.
 
