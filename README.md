@@ -1,5 +1,6 @@
-![language badge](https://img.shields.io/badge/language-python-blue)
 ![language badge](https://img.shields.io/badge/language-C%2B%2B-green)
+![language badge](https://img.shields.io/badge/language-python-blue)
+
 # Algorithm
 
 알고리즘 소스코드를 기록하는 레포지토리💻
