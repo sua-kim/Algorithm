@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-	// Á¤¼öÇü
+	// ì •ìˆ˜í˜• 
 	/*int a[5] = { 7, 3, 6, 12, 15 };
 	printf("%d\n", a[3]);
 	return 0;*/
@@ -35,7 +35,7 @@ int main() {
 	return 0;*/
 
 
-	// ¹®ÀÚ¿­ Ã³¸®
+	// ë¬¸ìì—´ ì²˜ë¦¬
 	/*char a[10] = "KOREA";
 	printf("%s\n", a);
 	return 0;*/
@@ -44,7 +44,7 @@ int main() {
 	int n;
 	scanf("%s", &a);
 	n = strlen(a);
-	printf("¹®ÀÚ¿­ ±æÀÌ = %d\n", n);
+	printf("ë¬¸ìì—´ ê¸¸ì´ = %d\n", n);
 	return 0; */
 
 	/*char a[20];
