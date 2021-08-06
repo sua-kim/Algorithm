@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// 1-1-1. µÎ¼öÀÇ ÇÕ
+// 1-1-1. ë‘ìˆ˜ì˜ í•©
 //int main() {
 //	int A, B;
 //	scanf("%d %d", &A, &B);
@@ -10,7 +10,7 @@
 //	return 0;
 //}
 
-// 1-1-2. µÎ ¼öÀÇ °ö
+// 1-1-2. ë‘ ìˆ˜ì˜ ê³±
 //int main() {
 //	double A, B;
 //	scanf("%lf %lf", &A, &B);
@@ -18,7 +18,7 @@
 //	return 0;
 //}
 
-// 1-1-3. µÎ ¼öÀÇ ¸ò°ú ³ª¸ÓÁö
+// 1-1-3. ë‘ ìˆ˜ì˜ ëª«ê³¼ ë‚˜ë¨¸ì§€
 //int main() {
 //	int A, B;
 //	scanf("%d %d", &A, &B);
@@ -26,7 +26,7 @@
 //	return 0;
 //}
 
-// 1-1-4. À½·á¼ö ÀÚÆÇ±â
+// 1-1-4. ìŒë£Œìˆ˜ ìíŒê¸°
 //int main() {
 //	int inputNum, price, charge, fiveHundred, oneHundred;
 //	scanf("%d", &inputNum);
@@ -40,7 +40,7 @@
 //	return 0;
 //}
 
-// 1-1-5. ¹İ¿Ã¸² <X>
+// 1-1-5. ë°˜ì˜¬ë¦¼ <X>
 //int main() {
 //	double a;
 //	scanf("%lf", &a);
@@ -50,7 +50,7 @@
 //	return 0;
 //}
 
-// 1-1-6. ¼¼ ¼öÀÇ Æò±Õ
+// 1-1-6. ì„¸ ìˆ˜ì˜ í‰ê· 
 //int main() {
 //	double A, B, C, average;
 //	scanf("%lf %lf %lf", &A, &B, &C);
@@ -61,7 +61,7 @@
 //	return 0;
 //}
 
-// 1-1-7. ¿¬ÇÊ °³¼ö
+// 1-1-7. ì—°í•„ ê°œìˆ˜
 int main() {
 	int a;
 	double n;
