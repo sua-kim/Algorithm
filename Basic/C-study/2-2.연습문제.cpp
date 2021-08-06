@@ -2,32 +2,32 @@
 #include <stdio.h>
 
 int main() {
-	// µÎ ¼ö Áß ÀÛÀº °ª
+	// ë‘ ìˆ˜ ì¤‘ ì‘ì€ ê°’
 	/*int a, b;
 	scanf("%d %d", &a, &b);
 	if (a < b) printf("%d\n", a);
 	else printf("%d\n", b);*/
 
-	// Â¦¼öÀÎ°¡?
+	// ì§ìˆ˜ì¸ê°€?
 	/*int a;
 	scanf("%d", &a);
 	if (a % 2 == 0) printf("YES");
 	else printf("NO");*/
 
-	// È¦¼ö, Â¦¼ö, Á¦·Î
+	// í™€ìˆ˜, ì§ìˆ˜, ì œë¡œ
 	/*int a;
 	scanf("%d", &a);
 	if (a == 0) printf("zero\n");
 	else if (a % 2 == 0) printf("even\n");
 	else printf("odd\n");*/
 
-	// ³îÀÌ±â±¸ Å°Á¦ÇÑ
+	// ë†€ì´ê¸°êµ¬ í‚¤ì œí•œ
 	/*int height;
 	scanf("%d", &height);
 	if (height >= 120 && height <= 150) printf("YES\n");
 	else printf("NO\n");*/
 
-	// ¼¼ ¼ö Áß ÃÖ¼Ò°ª
+	// ì„¸ ìˆ˜ ì¤‘ ìµœì†Œê°’
 	/*int A, B, C, min;
 	scanf("%d %d %d", &A, &B, &C);
 	if (A < B) min = A;
@@ -38,7 +38,7 @@ int main() {
 
 	printf("%d\n", min);*/
 
-	// »ï°¢Çü ÆÇº°ÇÏ±â
+	// ì‚¼ê°í˜• íŒë³„í•˜ê¸°
 	int A, B, C, max;
 	scanf("%d %d %d", &A, &B, &C);
 	if (A < B) max = B;
