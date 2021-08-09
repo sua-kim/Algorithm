@@ -4,7 +4,7 @@ def solution(new_id):
     new_id = new_id.lower()
     characters = "abcdefghijklmnopqrstuvwxyz-_.1234567890"
     new_id = ''.join(x for x in new_id if x in characters)
-    new_id = re.sub('\.{2,}', '.', new_id)
+    new_id = re.sub('\.{2,}', '..', new_id)
     new_id = re.sub('^.', '', new_id)
     new_id = new_id.replace('{.}$', '')
 

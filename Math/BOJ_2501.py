@@ -1,3 +1,7 @@
+'''
+BOJ_2501 - 약수 구하기
+'''
+
 # 제출 답안
 def kth_divisor(N, K):
     divisor = []

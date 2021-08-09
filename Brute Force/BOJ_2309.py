@@ -1,3 +1,7 @@
+'''
+BOJ_2309 - 일곱 난쟁이
+'''
+
 # 처음 제출 코드
 from itertools import combinations
 
