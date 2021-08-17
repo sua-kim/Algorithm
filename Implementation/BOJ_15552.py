@@ -1,3 +1,7 @@
+'''
+BOJ_15552 : 빠른 A+B
+'''
+
 from sys import stdin
 input = stdin.readline
 
