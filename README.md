@@ -15,4 +15,4 @@
 |01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |8        |
 |02 |[String](https://github.com/sua-kim/Algorithm/tree/main/String)                 |문자열          |3        |
 |03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |3        |
-|04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |1        |
+|04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |2        |
