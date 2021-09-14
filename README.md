@@ -14,5 +14,5 @@
 |00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |1        |
 |01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |8        |
 |02 |[String](https://github.com/sua-kim/Algorithm/tree/main/String)                 |문자열          |3        |
-|03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |3        |
+|03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |4        |
 |04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |7        |
