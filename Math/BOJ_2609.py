@@ -2,11 +2,11 @@
 BOJ_2609 - 최대공약수와 최소공배수
 '''
 
-def gcd(x, y):
-    if y == 0:
-        return x
+def gcd(a, b):
+    if b == 0:
+        return a
     else:
-        return gcd(y, x%y)
+        return gcd(b, a%b)
 
 a, b = map(int, input().split())
 g = gcd(a, b)
