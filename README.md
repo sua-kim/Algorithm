@@ -12,10 +12,9 @@
 |순번|Tag                      |태그          |풀이 수   |
 |---|-------------------------|--------------|---------|
 |00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |4        |
-|01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |8        |
+|01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |9        |
 |02 |[String](https://github.com/sua-kim/Algorithm/tree/main/String)                 |문자열          |5        |
 |03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |11        |
 |04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |11        |
 |05 |[Dynamic Programming](https://github.com/sua-kim/Algorithm/tree/main/Dynamic-Programming)       |동적 계획법       |1        |
-|06 |[Divide and Conquer](https://github.com/sua-kim/Algorithm/tree/main/Divide-Conquer)             |분할 정복         |1        |
-|07 |[Backtracking](https://github.com/sua-kim/Algorithm/tree/main/Backtracking)             |백트래킹         |1        |
+|06 |[Backtracking](https://github.com/sua-kim/Algorithm/tree/main/Backtracking)             |백트래킹         |2        |
