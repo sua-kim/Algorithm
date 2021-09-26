@@ -17,4 +17,4 @@
 |03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |11        |
 |04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |11        |
 |05 |[Dynamic Programming](https://github.com/sua-kim/Algorithm/tree/main/Dynamic-Programming)       |동적 계획법       |1        |
-|06 |[Backtracking](https://github.com/sua-kim/Algorithm/tree/main/Backtracking)             |백트래킹         |2        |
+|06 |[Backtracking](https://github.com/sua-kim/Algorithm/tree/main/Backtracking)             |백트래킹         |8        |
