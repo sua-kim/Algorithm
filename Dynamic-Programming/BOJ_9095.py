@@ -22,6 +22,7 @@ for _ in range(T):
 '''
 
 # 다른 재귀 함수 사용하는 경우
+'''
 def recursion1(count, sum, n):
     if sum > n:
         return 0
@@ -36,3 +37,13 @@ for _ in range(T):
     n = int(input())
     result = recursion1(0, 0, n)
     print(result)
+'''
+dp = [0] * 12
+dp[0], dp[1], dp[2] = 1, 1, 2
+for i in range(3, 12):
+    dp[i] = dp[i-3] + dp[i-2] + dp[i-1]
+
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    print(dp[n])
