@@ -39,6 +39,7 @@ print(max)
 '''
 
 # 모범 풀이
+'''
 N, M = map(int, input().split())
 card_list = list(map(int, input().split()))
 result = 0
@@ -50,3 +51,31 @@ for i in range(0, length):
             if sum_value <= M:
                 result = max(result, sum_value)
 print(result)
+'''
+
+
+N, M = map(int, input().split())
+card_list = list(map(int, input().split()))
+result = 300000
+def recursion(index, start, card_list, sum):
+    global result
+    if index >= 3:
+        if result > abs(M-sum):
+            result = sum
+        print(sum)
+        return
+    for i in range(start, len(card_list)):
+        recursion(index+1, i+1, card_list, sum+card_list[i])
+
+recursion(0, 0, card_list, 0)
+print(result)
+
+
+
+
+
+
+
+
+
+
