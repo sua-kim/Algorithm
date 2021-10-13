@@ -1,19 +1,16 @@
-N = int(input())
-height_list = list()
-left, right = 0, 0
-left_count, right_count = 0, 0
+n = int(input())
+n_list = [int(input()) for _ in range(n)]
+left, right = 1, 1
+max_left, max_right = n_list[0], n_list[-1]
+for i in range(1, len(n_list)):
+    if max_left < n_list[i]:
+        max_left = n_list[i]
+        left += 1
 
-for _ in range(N):
-    height = int(input())
-    height_list.append(height)
-    if left < height:
-        left = height
-        left_count += 1
+for i in range(len(n_list)-2, -1, -1):
+    if n_list[i] > max_right:
+        max_right = n_list[i]
+        right += 1
 
-for i in range(N-1,-1,-1):
-    if right < height_list[i]:
-        right = height_list[i]
-        right_count += 1
-
-print(left_count)
-print(right_count)
+print(left)
+print(right)

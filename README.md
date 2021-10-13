@@ -11,7 +11,7 @@
 
 |순번|Tag                      |태그          |풀이 수   |
 |---|-------------------------|--------------|---------|
-|00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |8        |
+|00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |10        |
 |01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |41        |
 |02 |[String](https://github.com/sua-kim/Algorithm/tree/main/String)                 |문자열          |13        |
 |03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |23        |

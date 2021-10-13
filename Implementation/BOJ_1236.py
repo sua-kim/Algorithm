@@ -1,13 +1,11 @@
-N, M = map(int, input().split())
-row = set()
-column = set()
+row, column = map(int, input().split())
+a = [False] * row
+b = [False] * column
+c_list = [list(input()) for _ in range(row)]
+for i in range(row):
+    for j in range(column):
+        if c_list[i][j] == 'X':
+            a[i] = True
+            b[j] = True
 
-for i in range(N):
-    M_list = list(input())
-    for j in range(M):
-        if M_list[j] == 'X':
-            row.add(j)
-            column.add(i)
-
-print(max(M-len(row), N-len(column)))
-
+print(max(a.count(False),b.count(False)))

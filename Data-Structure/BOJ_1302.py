@@ -1,18 +1,13 @@
-N = int(input())
-book_dict = dict()
-
-for _ in range(N):
-    book = input()
-    if book not in book_dict:
-        book_dict[book] = 1
-    else:
-        book_dict[book] += 1
-
-target = max(book_dict.values())
+n = int(input())
+book_list = {}
 result = []
-
-for book, number in book_dict.items():
-    if number == target:
-        result.append(book)
-
+for _ in range(n):
+    book = input()
+    if book not in book_list:
+        book_list[book] = 0
+    book_list[book] += 1
+target = max(book_list.values())
+for key in list(book_list):
+    if book_list[key] == target:
+        result.append(key)
 print(sorted(result)[0])
