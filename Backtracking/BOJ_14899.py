@@ -1,3 +1,4 @@
+'''
 N = int(input())
 S_list = [list(map(int, input().split())) for _ in range(N)]
 
@@ -27,3 +28,28 @@ def recursion(index, first, second):
     return ans
 
 print(recursion(0, [], []))
+'''
+
+from itertools import combinations
+n = int(input())
+s_list = [list(map(int, input().split())) for _ in range(n)]
+n_list = [i for i in range(n)]
+s = list(combinations(n_list, n//2))
+
+res = 10000
+for i in range(len(s)//2):
+    start = s[i]
+    start_s = 0
+    for j in range(n//2):
+        member = start[j]
+        for k in start:
+            start_s += s_list[member][k]
+    end = s[-i-1]
+    end_s = 0
+    for j in range(n//2):
+        member = end[j]
+        for k in end:
+            end_s += s_list[member][k]
+    res = min(res, abs(start_s-end_s))
+
+print(res)

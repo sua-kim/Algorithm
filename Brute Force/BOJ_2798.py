@@ -53,7 +53,7 @@ for i in range(0, length):
 print(result)
 '''
 
-
+'''
 N, M = map(int, input().split())
 card_list = list(map(int, input().split()))
 result = 300000
@@ -69,7 +69,22 @@ def recursion(index, start, card_list, sum):
 
 recursion(0, 0, card_list, 0)
 print(result)
+'''
 
+from itertools import combinations
+n, m = map(int, input().split())
+n_list = list(map(int, input().split()))
+
+minimum = 100000
+res = 0
+
+for i in combinations(n_list, 3):
+    temp = sum(i)
+    if temp <= m and minimum >= abs(temp-m):
+        minimum = abs(temp-m)
+        res = temp
+
+print(res)
 
 
 

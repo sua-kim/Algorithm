@@ -5,6 +5,7 @@ input = sys.stdin.readline
 n = int(input())
 heap = []
 result = []
+heapq.heapify(heap)
 for _ in range(n):
     x = int(input())
     if x == 0:
@@ -14,5 +15,6 @@ for _ in range(n):
             result.append(0)
     else:
         heapq.heappush(heap, x)
+
 for data in result:
     print(data)
