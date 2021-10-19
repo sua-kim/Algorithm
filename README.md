@@ -11,12 +11,12 @@
 
 |순번|Tag                      |태그          |풀이 수   |
 |---|-------------------------|--------------|---------|
-|00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |11        |
+|00 |[Brute Force](https://github.com/sua-kim/Algorithm/tree/main/Brute%20Force)          |완전탐색       |12        |
 |01 |[Math](https://github.com/sua-kim/Algorithm/tree/main/Math)                 |수학          |41        |
 |02 |[String](https://github.com/sua-kim/Algorithm/tree/main/String)                 |문자열          |13        |
-|03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |23        |
+|03 |[Implementation](https://github.com/sua-kim/Algorithm/tree/main/Implementation)                 |구현          |25        |
 |04 |[Data Structure](https://github.com/sua-kim/Algorithm/tree/main/Data-Structure)                 |자료구조          |14        |
 |05 |[Dynamic Programming](https://github.com/sua-kim/Algorithm/tree/main/Dynamic-Programming)       |동적 계획법       |6        |
 |06 |[Backtracking](https://github.com/sua-kim/Algorithm/tree/main/Backtracking)             |백트래킹         |9        |
-|07 |[Graph](https://github.com/sua-kim/Algorithm/tree/main/Graph)             |그래프         |11        |
+|07 |[Graph](https://github.com/sua-kim/Algorithm/tree/main/Graph)             |그래프         |14        |
 |08 |[Binary Search](https://github.com/sua-kim/Algorithm/tree/main/Binary-Search)             |이분탐색         |4        |
